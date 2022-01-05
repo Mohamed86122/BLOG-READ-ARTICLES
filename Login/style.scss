@@ -3,39 +3,21 @@
 body
 {
    background-image: url('../images/login.png');
-    .navbar .navbar-expand-lg
-    {
-        .container-fluid
-        {
-            .collapse .navbar-collapse
-            {
-                .nav-item{
-
-                        .nav-link
-                        {
-                            color:white;
-                        }
-                    
-                }
-            }
-        }
-        
-    }
     
     #forme
     {
-        padding: 15px;
-        margin:120px 197px;
-        margin-left: 500px;
-        margin-right: 150px;
+        // padding: 15px;
+        margin:120px 500px;
+        margin-left: 300px;
+        // margin-right: 150px;
         // border: 3px solid transparent;
         border-radius: 50px 80px;
         text-align: center;
-        background: LINEAR-GRADIENT(135DEG, #ffffffbe,white);
+        background: LINEAR-GRADIENT(20DEG, #ffffffbe,#0038a0);
         backdrop-filter:BLUR(10PX) ;
-        border:1PX solid RGBA(255, 255, 255, 0.18);
         box-shadow: 0 8Px 32PX 0 RGBA(0, 0, 0, 0.37);
-        input
+       
+        #mail,#password
         {
             padding: 4px;
             margin-bottom: 10px;
@@ -43,6 +25,13 @@ body
             border:1px solid grey;
             border-radius: 10px;
         }
+        #exemple
+        {
+            margin-right: 180px;
+            width: 40px;
+            height: 40px;
+        }
+        
     }
         
 }

@@ -25,10 +25,10 @@
                   <a class="nav-link active" aria-current="page" href="#">Home</a>
                 </li>
                 <li class="nav-item l2">
-                  <a class="nav-link" href="#">Famous Articles</a>
+                  <a class="nav-link" href="#pop">Famous Articles</a>
                 </li>
                 <li class="nav-item l3">
-                  <a href="#form" class="nav-link">ABOUT US</a>
+                  <a href="#about" class="nav-link">ABOUT US</a>
                 </li>
                 <li class="nav-item l4">
                   <a href="#form" class="nav-link">CONTACT</a>
@@ -37,7 +37,7 @@
                   <a href="#form" class="nav-link">DONATE</a>
                 </li>
                 <li class="nav-item l6">
-                  <a href="#form" class="nav-link">lOGIN </a>
+                  <a href="../Login/Index.html" class="nav-link">lOGIN </a>
                 </li>
                 <li class="nav-item l6">
                   <a href="#form" class="nav-link">SIGN UP</a>
@@ -57,10 +57,10 @@
       
     <!-- **************************** Article 1 ******************************** -->
     
-    <div style="font-size:60px; text-align: center;">Popular Articles</div>
+    <div style="font-size:60px; text-align: center;" id="pop">Popular Articles</div>
     <div style="font-size:20px; text-align: center;">This Week</div><br>
     <div class="container">
-       <!-- **************************** Article 2 ******************************** -->
+       <!-- **************************** Article 2 ******************************** 
     <div class="card-wrapper" style="margin-right: 300px;" >
     
           <div class="card profile-two">
@@ -75,12 +75,12 @@
                 </h2>
             </div>
         </div>
-     </div><!-- END box wrapper -->   
-     </div><!-- END container -->
+     </div>--><!-- END box wrapper    
+     </div>--><!-- END container -->
      <!-- ******* Article 3 *********** -->
       <div class="card-wrapper">   
         
-          <div class="card profile-three"style="margin-left:680px ;margin-top:-505px ;">
+          <div class="card profile-three">
                 <div class="card-image profile-img--two">
                   <img src="images/Article2.png" alt="profile two">
                 </div>
@@ -93,9 +93,31 @@
             </div>
           </div><!-- END box wrapper -->  
       </div><!-- END container -->
-
-     <!--********** ABOUT US *****************-->
-     <br><br><br><div style="font-size:60px; text-align: center;">About Us</div>
+      <form action="" id="form">
+        <h1>Contact</h1><br>
+        <input type="text"   id="nom" placeholder="Full name" required><br><br>
+        <input type="text"   id="email" placeholder="Mail" required><br><br>
+        <input type="number"   id="number" placeholder="Phone number" required><br><br>
+        <textarea placeholder="Enter your demand" cols="30" rows="5" required></textarea><br><br>
+        <button id="btn" class="btn btn-outline-primary" style="color:rgb(255, 255, 255);">REQUEST DEMAND</button>
+    </form>
+     
+     <br><br><br><div style="font-size:60px; text-align: center;" id="about">About Us</div><br>
+     <div class="card-wrapper" style="margin-left: 280px;">   
+      <div class="card profile-three">
+            <div class="card-image profile-img--two">
+              <img src="images/SGHIRA.png" style="background-color: white;" alt="profile two">
+            </div>
+            <div class="details ">
+                <h2>SGHIR ARTICLES 
+                  <br>
+                  <span class="job-title">Bibliotheque de l'année</span>
+                </h2>
+            </div>
+        </div>
+      </div><!-- END box wrapper -->  
+  </div><!-- END container -->
+     <!--********** ABOUT US *****************
      <div id="contente">
       <div id="carde">
         <div id="face"></div>
@@ -109,16 +131,9 @@
         </div>
       </div>
     </div>
-  </main>
+  </main>-->
 
-     <form action="" id="form">
-          <h1>Contact</h1><br>
-          <input type="text"   id="nom" placeholder="Full name" required><br><br>
-          <input type="text"   id="email" placeholder="Mail" required><br><br>
-          <input type="number"   id="number" placeholder="Phone number" required><br><br>
-          <textarea placeholder="Enter your demand" cols="30" rows="5" required></textarea><br><br>
-          <button id="btn" class="btn btn-outline-primary" style="color:rgb(255, 255, 255);">REQUEST DEMAND</button>
-      </form>
+     
     
      <!-- **********FOOTER*************** -->
      <footer class="bg-light text-center text-white">
